@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Mulish:wght@500&family=Poppins&display=swap');
+body{
+    background-color: #f1f1f1;
+    font-family: 'Merriweather', serif;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    /*margin-top: 15px;*/
+    /*margin-bottom: 15px;*/
+}
+.avatar{
+    width: 300px;
+    border-radius: 15%;
+}
+
+.info{
+    display: flex;
+}
+
+.info p{
+    margin: 0;
+    /*background-color: red;*/
+}
+
+.block{
+    margin: 15px;
+}
+
+.container{
+    max-width: 750px;
+    margin: auto;
+    /*margin-top: 15px;*/
+}
+
+.card{
+    border: black 2px solid;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.learningGoals{
+    /*border: black 2px solid;*/
+    /*padding: 15px;*/
+    /*border-radius: 20px;*/
+    margin: 20px;
+}
+
+.learningGoals h2{
+    text-align: center;
+}
+
+.timeForLearning{
+    /*border: black 2px solid;*/
+    /*border-radius: 20px;*/
+    /*padding: 15px;*/
+    display: flex;
+    /*flex-wrap: wrap;*/
+    /*width: 100%;*/
+}
+
+/*.divInside{*/
+/*    flex-basis: 49%;*/
+/*    !*height: 25%;*!*/
+/*    !*width: 50%;*!*/
+/*}*/
+
+
+
+/*.timeForLearning:after{*/
+/*    display: flex;*/
+/*}*/
+
+/*.hours{*/
+/*    float: right;*/
+/*    width: 25%;*/
+/*}*/
+
+/*.column{*/
+/*    float: left;*/
+/*    width: 50%;*/
+/*    !*border: black 2px solid;*!*/
+/*}*/
+
+.daysOfWeek .hours{
+    display: flex;
+}
+
+.timeForLearning h2{
+    text-align: center;
+}
+
+.myEndedCourses{
+    /*border: black 2px solid;*/
+}
